@@ -70,25 +70,36 @@
             <div class="service_slider">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <i class="fa-solid fa-memory"></i>
-                        <p>APP MOBILE <br> DEVELOPMENT</p>
+                        <div class="service_item">
+                            <i class="fa-solid fa-memory"></i>
+                            <p>APP MOBILE <br> DEVELOPMENT</p>
+                        </div>
                     </div>
                     <div class="item">
+                        <div class="service_item">
                         <i class="fa-solid fa-dice-d6"></i>
                         <p>APP MOBILE <br> DEVELOPMENT</p>
+                        </div>
                     </div>
                     <div class="item">
+                        <div class="service_item">
                         <i class="fab fa-autoprefixer"></i>
                         <p>DIGITAL<br>MARKETING</p>
+                        </div>
                     </div>
                     <div class="item">
+                        <div class="service_item">
                         <i class="fab fa-500px"></i>
                         <p>SEO & CONTENT<br>WRITING</p>
+                        </div>
                     </div>
                     <div class="item">
+                        <div class="service_item">
                         <i class="fa-solid fa-blog"></i>
                         <p>WEBSITE<br>DEVELOPMENT</p>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -352,12 +363,14 @@
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
+            margin: 10,
+            dotsEach: 1,
             responsive: {
                 0: {
-                    items: 1
+                    items: 5
                 },
                 991: {
-                    items: 1
+                    items: 5
                 },
                 1000: {
                     items: 5
